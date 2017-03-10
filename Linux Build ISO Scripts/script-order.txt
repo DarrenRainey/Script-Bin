@@ -1,0 +1,7 @@
+Below is the order in which the scripts should be run in order to get a working system
+
+host-setup.sh
+chroot.sh
+guest-os.sh (In chroot NOT on main system/host/device running chroot)
+mksquashfs.sh
+iso-gen.sh
