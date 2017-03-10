@@ -12,5 +12,5 @@ passwd
 echo "Exiting Chroot"
 apt-get clean
 rm /var/lib/dbus/machine-id && rm -rf /tmp/*
-unmount /proc /sys /dev/pts
+umount /proc /sys /dev/pts
 exit
