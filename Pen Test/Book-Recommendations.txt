@@ -1,0 +1,7 @@
+This is a collection of books recommended by various groups and people wanting to get started in pen testing
+
+1. RTFM (Red Team Field Manual)                  - Offense
+2. BTFM (Blue Team Field Manual)                 - Defense
+3. Gray Hat Python                               - UNKNOWN
+4. Hacking: The Art of Exploitation              - UNKNOWN
+5. Hacking The Xbox - by Andrew "Bunnie" Huang   - Offense
