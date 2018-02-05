@@ -4,4 +4,4 @@
 	echo "#################################"
 	echo ""
 	echo Please enter file name
-	cat $1 | '{print $3}' | sed "s/addr=//g" | sed 's/\"//g' | tail -n +6 | head -n -5
+	cat $1 | awk '{print $3}' | sed "s/addr=//g" | sed 's/\"//g' | tail -n +6 | head -n -5
