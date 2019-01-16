@@ -1,0 +1,2 @@
+# type back to go previous directory
+alias back="cd $OLDPWD"
