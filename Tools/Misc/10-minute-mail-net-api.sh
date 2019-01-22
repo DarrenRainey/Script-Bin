@@ -6,3 +6,6 @@ GETMAIL=$(curl https://10minutemail.net/address.api.php -b cookie.jar | jq .)
 
 # PRINT EMAILS IN JSON
 jq . "$GETMAIL"
+
+# PRINT YOUR EMAIL ADDRES
+echo $(echo $GETADDRESS| jq . | grep '"mail":' | sed 's/"/ /g' | awk '{print $3}')
