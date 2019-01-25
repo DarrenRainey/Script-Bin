@@ -1,0 +1,12 @@
+Using Termux with the Android Debug Bridge (ADB) / Android Shell
+Assuming device has root
+
+Install Termux apk from Fdroid or Google play.
+Optionally install Termux API as well.
+
+adb shell
+> su
+> cd /data/data/com.termux/files/usr/bin
+> export LD_LIBRARY_PATH=/data/data/com.termux/files/lib
+
+Now you can use any of the termux commands assuming you have granted the appropirate permissions to the APP(s)
